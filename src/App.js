@@ -9,14 +9,17 @@ const styles = {
     padding: '0 10px',
     borderRadius: 10,
     display: 'inline',
+  },
+  app: {
+    textAlign: 'center',
   }
 }
 
 function App(props) {
   const { classes } = props
   return (
-    <div className="App">
-      <header className={classes.mainHeader}>PASSWORD GENERATOR</header>
+    <div className={classes.app}>
+      <header className={classes.mainHeader}>Password Generator</header>
       <PasswordForm />
     </div>
   );

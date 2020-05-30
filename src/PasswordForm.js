@@ -56,10 +56,10 @@ export default function PasswordForm() {
       >
         {({ handleChange, handleReset, onSubmit, values}) => (
           <Form onSubmit={() => generatePassword(values)}>
-            <TextField disabled placeholder='Click below' value={password}/>
+            <TextField disabled placeholder='Click below' value={password} variant='outlined'/>
             <IconButton onClick={copyPassword}><FileCopy /></IconButton>
             <SpacedDiv header="Password Length">
-              <TextField style={{width: '50px'}} name='passwordLength' defaultValue={passwordLength} type="number"/>
+              <TextField style={{width: '50px'}} name='passwordLength' defaultValue={passwordLength} onChange={handleChange} type="number"/>
             </SpacedDiv>
             <SpacedDiv header="Include uppercase characters">
               <Checkbox name='includeUppercase' defaultChecked={includeUppercase} onChange={handleChange}/>
@@ -73,7 +73,11 @@ export default function PasswordForm() {
             <SpacedDiv header="Include Special Characters">
               <Checkbox name='includeSpecialChars' defaultChecked={includeSpecialChars} onChange={handleChange}/>
             </SpacedDiv>
-            <Button type="submit">Generate Password</Button>
+            <Button onClick={(e) => {
+              e.preventDefault()
+              console.log('valeues: ', values)
+              generatePassword(values)
+            }} type="submit">Generate Password</Button>
           </Form>
           )}
       </Formik>

@@ -15,8 +15,10 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StyledComponents/FormContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledComponents/FormContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590734795462</updated>
-      <workItem from="1590734797586" duration="14379000" />
+      <workItem from="1590734797586" duration="15874000" />
     </task>
     <servers />
   </component>
@@ -88,10 +90,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="640" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590820069989" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1590820071786">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1590822596448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590820071786" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590822596448" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590821096542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

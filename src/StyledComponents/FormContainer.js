@@ -7,7 +7,7 @@ const Box = styled('div')(compose(spacing, palette));
 
 export function FormContainer({ children, classes }) {
   return (
-    <Box className={classes.formContainer} color="white" bgcolor="palevioletred" p={1}>
+    <Box className={classes.formContainer} color="white" bgcolor="#0FF3EE" p={1}>
       {children}
     </Box>
   );
