@@ -1,28 +1,44 @@
 import React from 'react';
 import './App.css';
 import PasswordForm from "./PasswordForm";
-import { withStyles } from "@material-ui/core/styles";
+import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles";
 
 const styles = {
-  mainHeader: {
-    border: 'solid 1px red',
-    padding: '0 10px',
-    borderRadius: 10,
-    display: 'inline',
-  },
   app: {
     textAlign: 'center',
   }
 }
 
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#ccfccb'
+    },
+    secondary: {
+      main: '#96E6B3'
+    },
+  },
+  typography: {
+    fontFamily: [
+      'Manrope',
+    ].join(','),
+    button: {
+      textTransform: 'none',
+      fontWeight: '700'
+    }
+  },
+})
+
+
 function App(props) {
   const { classes } = props
   return (
-    <div className={classes.app}>
-      <header className={classes.mainHeader}>Password Generator</header>
-      <PasswordForm />
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <div className={classes.app}>
+        <PasswordForm />
+      </div>
+    </ThemeProvider>
+);
 }
 
 export default withStyles(styles)(App);

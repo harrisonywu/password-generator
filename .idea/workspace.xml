@@ -12,14 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="481fb095-c5cb-4e0b-a18c-b1662cc5cbca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StyledComponents/FormContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledComponents/FormContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StyledComponents/FormContainer.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StyledComponents/FormContainer.styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../habit-tracker" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590734795462</updated>
-      <workItem from="1590734797586" duration="15874000" />
+      <workItem from="1590734797586" duration="18638000" />
+      <workItem from="1590961581330" duration="4280000" />
     </task>
     <servers />
   </component>
@@ -80,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590776023380">
@@ -90,10 +90,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="640" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590820069989" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590855721623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590855721623" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1590822596448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.2048.1112@0.0.1920.1040" timestamp="1590822596448" />
+    <state x="2660" y="203" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590988946346">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2660" y="203" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1590988946346" />
+    <state x="2654" y="155" width="579" height="801" key="find.popup" timestamp="1590989490503">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2654" y="155" width="579" height="801" key="find.popup/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1590989490503" />
+    <state x="2601" y="259" key="run.anything.popup" timestamp="1590988098648">
+      <screen x="1920" y="0" width="2048" height="1112" />
+    </state>
+    <state x="2601" y="259" key="run.anything.popup/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1590988098648" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590821096542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
