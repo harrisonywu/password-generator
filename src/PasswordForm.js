@@ -92,7 +92,7 @@ function PasswordForm(props) {
         {({ handleChange, handleReset, onSubmit, values }) => (
           <Form onSubmit={() => generatePassword(values)}>
             <TextField
-              InputProps={{ "text-align": "center" }}
+              inputProps={{min: 0, style: { textAlign: 'center' }}}
               className={classes.passwordField}
               color="primary"
               endIcon={
