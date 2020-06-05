@@ -12,10 +12,10 @@ const styles = {
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#ccfccb'
+      main: '#FFC6D9'
     },
     secondary: {
-      main: '#96E6B3'
+      main: '#FFC6D9'
     },
   },
   typography: {
@@ -23,7 +23,6 @@ const theme = createMuiTheme({
       'Manrope',
     ].join(','),
     button: {
-      textTransform: 'none',
       fontWeight: '700'
     }
   },
