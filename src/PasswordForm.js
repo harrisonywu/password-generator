@@ -72,9 +72,10 @@ function PasswordForm(props) {
     let passwordString = "";
     for (let i = 0; i < passwordLength; i++) {
       let currentSet = chars[Math.floor(Math.random() * chars.length)];
-      let selectedChar =
-        currentSet[Math.floor(Math.random() * currentSet.length)];
-      passwordString = passwordString.concat(selectedChar);
+      if (currentSet) {
+        let selectedChar = currentSet[Math.floor(Math.random() * currentSet.length)];
+        passwordString = passwordString.concat(selectedChar);
+      }
     }
     setPassword(passwordString);
   };
@@ -92,7 +93,7 @@ function PasswordForm(props) {
         {({ handleChange, handleReset, onSubmit, values }) => (
           <Form onSubmit={() => generatePassword(values)}>
             <TextField
-              inputProps={{min: 0, style: { textAlign: 'center' }}}
+              inputProps={{ style: { textAlign: 'center' }}}
               className={classes.passwordField}
               color="primary"
               endIcon={
